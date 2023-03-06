@@ -1,44 +1,34 @@
 body{
-    background-color: rgb(243, 224, 224);
+    background-color: rgb(143, 185, 171);
+    font: normal 12px italic;
 }
-h1, blockquote {
-text-align: center;
+fieldset{
+    background-color: whitesmoke;
+    opacity: 1em;
+    width: 225px;
+    margin:auto;
+    border-radius: 9px;
+    font-size: 1.3em;
 }
-table{
-    font: normal 20px arial;
+.enviar{
+    padding: 3px;
+    margin-left: 60px;
+}
+.pedido{
     text-align: center;
-    margin: auto;
-}
-form{
     width: 300px;
-    border:1.5px solid black;
-    border-radius: 9px;
-    margin: auto;
-    padding: 3px;
-    box-shadow: 1px 1px;
+    height: 60px;  
+}
+.nome{
     text-align: center;
+    width: 300px;
 }
-input{
-    border:1.5px solid black;
-    border-radius: 9px;
-    margin: 3px;
-    padding: 3px;
-    box-shadow: 2px 3px;
+.endereço{
     text-align: center;
+    width: 300px;
+    height: 30px;
 }
-button{
-    background-color: rgb(22, 143, 22);
-    cursor: pointer;
-}
-th{ color: whitesmoke;
-    background-color: rgb(15, 14, 14);
-}
-tr{
-    background-color: grey;
-}
-tr:hover{
-    background-color: aquamarine;
-}
-table{
-    border-radius: 9px;
+h4{
+    text-align: center;
+    font-size: 1.3em;
 }

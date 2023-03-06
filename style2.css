@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(241, 232, 232);
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    border-radius: 3px;
+}
